@@ -17,7 +17,6 @@ public class Main {
 		DadosPagamento pagamento = new DadosPagamento();
 		DimensaoUnidade dUnidade = new DimensaoUnidade();
 		EntradaEstoque eEstoque = new EntradaEstoque();
-		EstadoLote estadoLote;
 		Estoque estoque = new Estoque();
 		GrupoMaterial grupoMaterial = new GrupoMaterial();
 		GuiaRemessa guiaRemessa = new GuiaRemessa();
@@ -29,14 +28,11 @@ public class Main {
 		SolicitacaoAnalise solicitacaoAnalize = new SolicitacaoAnalise();
 		MetodoEspecificoAnalise metodo = new MetodoEspecificoAnalise();
 		MaterialAnalisavel materialAnalisavel = new MaterialAnalisavel();
-        MovimentacaoEntrada movimentacaoEntrada = new MovimentacaoEntrada();
         MovimentacaoEstoque movimentacaoEstoque = new MovimentacaoEstoque();
-        MovimentacaoSaida movimentacaoSaida = new MovimentacaoSaida();
         NaturezaOperacao naturezaOperacao = new NaturezaOperacao();
         NotaFiscal notaFiscal = new NotaFiscal();
         ReservaMaterial reservaMaterial = new ReservaMaterial();
         SaidaEstoque saidaEstoque = new SaidaEstoque();
-        SaidaRequisicaoInterna saidaReqInterna = new SaidaRequisicaoInterna();
         UnidadeMedida unidadeMedida = new UnidadeMedida();
         Usuario usuario = new Usuario();
         VolumeMaterial volumeMaterial = new VolumeMaterial();
